@@ -7,7 +7,7 @@ start() ->
     {port, 1337},
     {server_name, "test"},
     {server_root, "."},
-    {document_root, "."}
+    {document_root, "../client"}
   ]).
 
 
